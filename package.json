@@ -3,7 +3,7 @@
   "version": "0.7.5",
   "main": "main.js",
   "description": "electron-updater example project",
-  "author": "Zvika Haramaty",
+  "author": "Matt Haggard",
   "scripts": {
     "publish": "build -p always"
   },
@@ -17,5 +17,12 @@
   },
   "build": {
     "appId": "com.github.ZvikaZ.electronupdaterexample",
+    "mac": {
+      "category": "your.app.category.type",
+      "target": [
+        "zip",
+        "dmg"
+      ]
+    }
   }
 }
