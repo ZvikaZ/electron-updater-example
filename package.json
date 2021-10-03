@@ -1,11 +1,11 @@
 {
   "name": "electron-updater-example",
-  "version": "0.7.6",
+  "version": "0.7.7",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": "Zvika Haramaty",
   "scripts": {
-    "dist": "electron-builder",
+    "release": "electron-builder",
     "publish": "build -p always"
   },
   "devDependencies": {
